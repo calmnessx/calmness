@@ -29,9 +29,10 @@ main {
 .portfolio img {
     width: 100%; /* Изменяет ширину изображений для адаптивности */
     max-width: 300px; /* Устанавливает максимальную ширину для изображений */
-    height: auto;
+    height: auto; /* Поддерживает пропорции изображений */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover; /* Изображения обрезаются по границам контейнера */
 }
 
 .social-links {
