@@ -68,6 +68,7 @@ main {
 .button.telegram { background-color: #0088cc; }
 .button.spotify { background-color: #1db954; }
 .button.discord { background-color: #7289da; }
+.button.steam { background-color: #1b2838; } /* Добавлено для Steam */
 
 .button:hover {
     opacity: 0.8;
@@ -91,7 +92,7 @@ footer {
     }
 
     .portfolio img {
-        max-width: 90%; /* Устанавливаем максимальную ширину изображений для маленьких экранов */
+        max-width: 90%; /* Устанавливаем максимальную ширину изображений для маленьких экранах */
     }
 
     .buttons {
