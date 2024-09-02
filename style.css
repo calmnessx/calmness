@@ -16,6 +16,7 @@ header {
 
 main {
     padding: 20px;
+    margin-bottom: 60px; /* Увеличивает пространство для футера */
 }
 
 .portfolio {
@@ -60,6 +61,7 @@ main {
     display: inline-block; /* Убедитесь, что кнопки отображаются как блочные элементы */
     min-width: 120px; /* Устанавливает минимальную ширину кнопок */
     text-align: center;
+    box-sizing: border-box; /* Учитывает внутренние отступы и границы в размерах элемента */
 }
 
 .button.vk { background-color: #4c75a3; }
@@ -95,6 +97,7 @@ footer {
     .buttons {
         flex-direction: column; /* Вертикальное размещение кнопок */
         align-items: center; /* Центрируем кнопки */
+        gap: 15px; /* Увеличиваем расстояние между кнопками */
     }
 
     .button {
