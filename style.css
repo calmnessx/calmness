@@ -8,11 +8,12 @@ body {
 }
 
 header {
-    background-color: #1cba36 !important;
-    color: #333;
+    background-color: #1cba36;
+    color: #333 !important; /* Тёмно-серый цвет текста */
     padding: 20px;
     text-align: center;
 }
+
 
 main {
     padding: 20px;
