@@ -8,10 +8,15 @@ body {
 }
 
 header {
-    background-color: #1cba36;
+    background-color: #1cba36 !important; /* Салатовый фон */
     color: #333 !important; /* Тёмно-серый цвет текста */
     padding: 20px;
     text-align: center;
+}
+
+header * {
+    color: #333 !important; /* Применить цвет ко всем элементам внутри header */
+    background-color: transparent !important; /* Убираем любые фоны у внутренних элементов */
 }
 
 
