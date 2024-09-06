@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background-color: #1cba36 !important; /* Салатовый фон */
-    color: #fff !important; /* Белый цвет текста для лучшего контраста */
+    background-color: #1cba36; /* Салатовый фон */
+    color: #fff; /* Белый цвет текста для лучшего контраста */
     padding: 20px;
     text-align: center;
 }
