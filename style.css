@@ -109,18 +109,7 @@ footer {
 }
 
 /* Стили для оверлея Spotify */
-#spotify-overlay {
-    position: fixed;
-    bottom: 80px;
-    right: 10px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    max-width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: none; /* Скрыто по умолчанию, включится через JS */
-}
+
 
 /* Адаптация для мобильных устройств */
 @media (max-width: 768px) {
